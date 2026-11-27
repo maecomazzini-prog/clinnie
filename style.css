@@ -4,3 +4,8 @@
 
 /* Stage labels */
 .tag.stage-1{background:#e9e9e9;color:#454545}.tag.stage-2{background:#e5edf8;color:#34547c}.tag.stage-3{background:#eee8f6;color:#624780}.tag.stage-4{background:#e1efed;color:#32645d}.tag.stage-5{background:#f8ecdf;color:#895629}.tag.stage-6{background:#e4efe3;color:#42663c}
+
+/* Entregáveis: estilos isolados */
+.report-chevron{float:right}.report-submenu{display:flex;flex-direction:column;gap:4px;padding-left:12px}.report-submenu[hidden]{display:none}.report-submenu button{font-size:12px;padding:8px 12px}.report-submenu button.active{box-shadow:inset 2px 0 #262626}#report-frame{display:block;width:100%;height:calc(100vh - 150px);min-height:540px;border:0;background:#f8f8f8}@media(max-width:760px){.report-submenu{width:100%;padding-left:8px}#report-frame{height:75vh;min-height:420px}}
+
+.heur-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.heur-item{margin-top:14px}.heur-item form{display:grid;gap:8px;margin-top:16px}.heur-item form button{justify-self:start}.heur-item textarea{min-height:65px}.heur-item a{color:inherit}.heur-item small{display:block}
